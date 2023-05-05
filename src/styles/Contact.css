@@ -1,0 +1,55 @@
+.contact {
+    width: 70%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0 2px;
+  }
+  
+  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  a:hover {
+    color: #007bff;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+
+  }
+  
+  p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: white;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    a {
+      font-size: 50px;
+    }
+  }
+  
